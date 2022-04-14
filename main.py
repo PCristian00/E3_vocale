@@ -1,10 +1,11 @@
 def vocale(carattere):
-    vocali="aeiou"
+    vocali = "aeiouAEIOU"
 
     if carattere in vocali:
-        print("Vocale")
+        print(str(carattere)+" è una Vocale")
     else:
-        print("Non Vocale")
+        print(str(carattere)+" NON è una Vocale")
 
-car=input("Inserire un carattere: ");
+
+car = input("Inserire un carattere: ");
 vocale(car)
