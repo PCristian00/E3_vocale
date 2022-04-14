@@ -1,11 +1,10 @@
-def vocale(car):
+def vocale(carattere):
     vocali="aeiou"
-    if car in vocali:
+
+    if carattere in vocali:
         print("Vocale")
     else:
         print("Non Vocale")
 
-vocale("a")
-vocale("v")
-vocale("e")
-vocale("2")
+car=input("Inserire un carattere: ");
+vocale(car)
